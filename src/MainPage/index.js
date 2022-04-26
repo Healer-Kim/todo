@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 import TodoDate from "../TodoDate";
-// import TodoLeft from "../TodoLeft";
+import TodoLeft from "../TodoLeft";
 // import TodoRight from "../TodoRight";
 
 const Container = styled.div`

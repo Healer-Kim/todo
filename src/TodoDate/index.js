@@ -12,12 +12,33 @@ import styled from "styled-components";
 /// const todos = useTodoState();
 /// const undoneTasks = todos.filter((todo) => !todo.done);
 
+const Container = styled.div`
+
+`
+
+const TempDate = styled.div`
+font-family: "Gill Sans", sans-serif;
+`
+
+const TempDay = styled.div`
+font-family: "Gill Sans", sans-serif;
+color: gray;
+`
+
 function TodoDate() {
     // return(
     //     <>
     //         <Title>(dateString)</Title>
     //     </>
     // );
+    return(
+        <Container>
+            <TempDate>2022년 04월 26일</TempDate>
+            <br></br>
+            <TempDay>화요일</TempDay>
+        </Container>
+
+    )
 };
 
 export default TodoDate;
